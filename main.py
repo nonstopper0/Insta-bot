@@ -70,10 +70,3 @@ bot1.change_bio()
 print('end')
 time.sleep(60)
 bot1.close()
-
-
-password = driver.find_element_by_name('password')
-login_form = driver.find_element_by_xpath("//form[@id='loginForm']")
-continue_link = driver.find_element_by_link_text('Continue')
-
-
